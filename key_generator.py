@@ -1,4 +1,5 @@
 from common import writeFile
+
 class KeyGenerator:
 
     constant_64bit = pow(2, 63)

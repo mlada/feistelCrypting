@@ -1,5 +1,5 @@
 from common import *
-from feistelKeygen import *
+from key_generator import *
 from encrypt import *
 
 initialKey = readFile("key.txt")
@@ -8,8 +8,7 @@ binaryKey = string_to_binary(initialKey)
 print(binaryKey)
 KeyGenerator1 = KeyGenerator(binaryKey)
 print(KeyGenerator1.keys);
-# KeyGenerator1.keys - ключ после сети фистеля
- 
+  
 initialMessage = readFile('message.txt')
 print(initialMessage)
 binaryMessage = string_to_binary(initialMessage)
