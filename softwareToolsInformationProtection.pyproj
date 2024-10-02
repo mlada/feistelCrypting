@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>softwareToolsInformationProtection</Name>
     <RootNamespace>softwareToolsInformationProtection</RootNamespace>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,9 +23,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="common.py" />
-    <Compile Include="feistelKeygen.py" />
+    <Compile Include="crypt_module.py" />
+    <Compile Include="key_generator.py" />
     <Compile Include="start.py" />
-    <Compile Include="softwareToolsInformationProtection.txt" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="key.txt" />
