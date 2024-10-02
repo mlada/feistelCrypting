@@ -1,6 +1,7 @@
 from common import *
 from key_generator import *
 from crypt_module import *
+from crypting import *
 
 #Алгоритм шифрования Фейстеля
 #Преобразовать простой текст в ASCII, а затем в 8-битный двоичный формат. 

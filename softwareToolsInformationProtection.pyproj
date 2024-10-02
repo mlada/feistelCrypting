@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>bcc1ba46-b038-4d65-ba69-969d4dbfb4f3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>start.py</StartupFile>
+    <StartupFile>crypting.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -32,6 +32,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ci_message - Copy.txt" />
+    <Content Include="crypting.py" />
     <Content Include="decode_message.txt" />
     <Content Include="key.txt" />
     <Content Include="message.txt" />
