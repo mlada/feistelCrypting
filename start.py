@@ -20,6 +20,7 @@ Key_Bin = "".join(Key_Bin)
 #Преобразовать простой текст в ASCII, а затем в 8-битный двоичный формат.   
 initialMessage = readFile('message.txt')
 print(initialMessage)
+
 # Converting the plain text to
 # ASCII
 Message_Ascii = [ord(x) for x in initialMessage]
@@ -29,8 +30,6 @@ print(Message_Ascii)
 # 8-bit binary format
 Message_Bin = [format(y,'08b') for y in Message_Ascii]
 Message_Bin = "".join(Message_Bin)
-
-#sub_key = input("Write subkey variant: ")
 
 
 KeyGenerator1 = KeyGenerator(Key_Bin)
@@ -42,10 +41,3 @@ print(encrypted_msg)
 decrypted_msg = Crypt1.decrypt(encrypted_msg)
 print(decrypted_msg)
 print(binary_to_string(decrypted_msg))
-
- 
-
- 
-#Разделите двоичную строку обычного текста на две половины: левую половину (L1) и правую половину (R1) 
- 
-#Сгенерируйте случайные двоичные ключи (K1 и K2) длиной, равной половине длины открытого текста для двух раундов. 
