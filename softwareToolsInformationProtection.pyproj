@@ -26,7 +26,6 @@
     <Compile Include="crypt_module.py" />
     <Compile Include="key_generator.py" />
     <Compile Include="start.py" />
-    <Compile Include="test.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="key.txt" />
