@@ -23,7 +23,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="common.py" />
-    <Compile Include="crypt.py" />
+    <Compile Include="crypt_module.py" />
     <Compile Include="key_generator.py" />
     <Compile Include="start.py" />
     <Compile Include="test.py" />

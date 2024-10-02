@@ -1,6 +1,6 @@
 from common import *
 from key_generator import *
-from crypt import *
+from crypt_module import *
 
 initialKey = readFile("key.txt")
 print(initialKey)
