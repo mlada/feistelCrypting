@@ -24,10 +24,15 @@
   <ItemGroup>
     <Compile Include="common.py" />
     <Compile Include="crypt_module.py" />
+    <Compile Include="file.py" />
+    <Compile Include="interface.py" />
     <Compile Include="key_generator.py" />
+    <Compile Include="new.py" />
     <Compile Include="start.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ci_message - Copy.txt" />
+    <Content Include="decode_message.txt" />
     <Content Include="key.txt" />
     <Content Include="message.txt" />
   </ItemGroup>

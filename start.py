@@ -10,12 +10,12 @@ print(initialKey)
 # Converting the plain text to
 # ASCII
 Key_Ascii = [ord(x) for x in initialKey]
-print(Key_Ascii)
 
 # Converting the ASCII to 
 # 8-bit binary format
 Key_Bin = [format(y,'08b') for y in Key_Ascii]
 Key_Bin = "".join(Key_Bin)
+print(Key_Bin)
 
 #Преобразовать простой текст в ASCII, а затем в 8-битный двоичный формат.   
 initialMessage = readFile('message.txt')
@@ -24,13 +24,13 @@ print(initialMessage)
 # Converting the plain text to
 # ASCII
 Message_Ascii = [ord(x) for x in initialMessage]
-print(Message_Ascii)
+
 
 # Converting the ASCII to 
 # 8-bit binary format
 Message_Bin = [format(y,'08b') for y in Message_Ascii]
 Message_Bin = "".join(Message_Bin)
-
+print(Message_Bin)
 
 KeyGenerator1 = KeyGenerator(Key_Bin)
 print(KeyGenerator1.keys);
@@ -41,3 +41,4 @@ print(encrypted_msg)
 decrypted_msg = Crypt1.decrypt(encrypted_msg)
 print(decrypted_msg)
 print(binary_to_string(decrypted_msg))
+ 
